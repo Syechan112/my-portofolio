@@ -30,10 +30,10 @@ body {
 
 .button-start {
 	position: absolute;
-	top: 50%;
+	top: 57%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	margin-top: 55px;
+	/* margin-top: 55px; */
 }
 
 @media (max-width: 768px) {
