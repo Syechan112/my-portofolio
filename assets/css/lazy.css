@@ -1,0 +1,138 @@
+.lazy {
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+/* Fade-In Animasi */
+.fade-in.loaded {
+	animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Swing-In-Top-Fwd Animation */
+@keyframes swingInTopFwd {
+	0% {
+		transform: rotateX(-100deg);
+		transform-origin: top;
+		opacity: 0;
+	}
+	100% {
+		transform: rotateX(0);
+		transform-origin: top;
+		opacity: 1;
+	}
+}
+
+.swing-in-top-fwd.loaded {
+	animation: swingInTopFwd 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Animasi Scale-In-Center */
+@keyframes scaleInCenter {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Tambahkan kelas untuk scale-in-center */
+.scale-in-center.loaded {
+    animation: scaleInCenter 0.8s ease-out forwards;
+}
+
+/* Animasi Scale-Up-Center */
+@keyframes scaleUpCenter {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Tambahkan kelas untuk scale-up-center */
+.scale-up-center.loaded {
+    animation: scaleUpCenter 1s ease-out forwards;
+}
+
+/* Slide-In-Left Animasi */
+.slide-in-left.loaded {
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px); /* Mulai dari kiri */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Akhir di posisi normal */
+    }
+}
+
+
+/* Slide-In-Top Animasi */
+.slide-in-top.loaded {
+    animation: slideInTop 0.8s ease-out forwards;
+}
+
+@keyframes slideInTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100px); /* Mulai dari atas */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Akhir di posisi normal */
+    }
+}
+
+/* Slide-In-Bottom Animasi */
+.slide-in-bottom.loaded {
+    animation: slideInBottom 0.8s ease-out forwards;
+}
+
+@keyframes slideInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px); /* Mulai dari bawah */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Akhir di posisi normal */
+    }
+}
+
+
+/* Slide-In-Right Animasi */
+.slide-in-right.loaded {
+    animation: slideInRight 0.8s ease-out forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px); /* Mulai dari kanan */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Akhir di posisi normal */
+    }
+}

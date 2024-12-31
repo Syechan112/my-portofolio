@@ -1,0 +1,100 @@
+/* Aboreto */
+.aboreto-regular {
+  font-family: "Aboreto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Poppins - Normal Styles */
+.poppins-thin { font-family: "Poppins", serif; font-weight: 100; font-style: normal; }
+.poppins-extralight { font-family: "Poppins", serif; font-weight: 200; font-style: normal; }
+.poppins-light { font-family: "Poppins", serif; font-weight: 300; font-style: normal; }
+.poppins-regular { font-family: "Poppins", serif; font-weight: 400; font-style: normal; }
+.poppins-medium { font-family: "Poppins", serif; font-weight: 500; font-style: normal; }
+.poppins-semibold { font-family: "Poppins", serif; font-weight: 600; font-style: normal; }
+.poppins-bold { font-family: "Poppins", serif; font-weight: 700; font-style: normal; }
+.poppins-extrabold { font-family: "Poppins", serif; font-weight: 800; font-style: normal; }
+.poppins-black { font-family: "Poppins", serif; font-weight: 900; font-style: normal; }
+
+/* Poppins - Italic Styles */
+.poppins-thin-italic { font-family: "Poppins", serif; font-weight: 100; font-style: italic; }
+.poppins-extralight-italic { font-family: "Poppins", serif; font-weight: 200; font-style: italic; }
+.poppins-light-italic { font-family: "Poppins", serif; font-weight: 300; font-style: italic; }
+.poppins-regular-italic { font-family: "Poppins", serif; font-weight: 400; font-style: italic; }
+.poppins-medium-italic { font-family: "Poppins", serif; font-weight: 500; font-style: italic; }
+.poppins-semibold-italic { font-family: "Poppins", serif; font-weight: 600; font-style: italic; }
+.poppins-bold-italic { font-family: "Poppins", serif; font-weight: 700; font-style: italic; }
+.poppins-extrabold-italic { font-family: "Poppins", serif; font-weight: 800; font-style: italic; }
+.poppins-black-italic { font-family: "Poppins", serif; font-weight: 900; font-style: italic; }
+
+/* Dancing Script */
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* DM Serif Text */
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Tinos */
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Varela */
+.varela-regular {
+  font-family: "Varela", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Funnel Sans */
+.funnel-sans-<uniquifier> {
+  font-family: "Funnel Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Lexend Deca */
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Poiret One */
+.poiret-one-regular {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
