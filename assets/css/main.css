@@ -52,12 +52,6 @@ body {
 }
 
 /* content */
-.container-img {
-	padding: 30px;
-	background-color: #faf1e4;
-	border-radius: 100%;
-	border: 1px solid black;
-}
 
 .profile-img {
 	border-radius: 100%;
